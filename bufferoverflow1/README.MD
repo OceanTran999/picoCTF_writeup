@@ -31,5 +31,4 @@ Vì vậy, dựa vào hình dưới, ta sẽ cần 48 bytes để overwrite: tro
 # Flag solved
 Bingoooo!!! Ta đã có flag của challenge
 
-![flag]
-(https://github.com/OceanTran999/picoCTF_writeup/assets/100577019/c38aa0b2-e42f-474c-bfca-b5bb8220a660)
+![flag](https://github.com/OceanTran999/picoCTF_writeup/assets/100577019/c38aa0b2-e42f-474c-bfca-b5bb8220a660)
