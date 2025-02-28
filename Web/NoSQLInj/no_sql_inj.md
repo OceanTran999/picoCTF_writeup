@@ -16,7 +16,7 @@ Reading the source code, I understand that the server is using **MongoDB**, also
 ![leak_mail](https://github.com/user-attachments/assets/5365d727-7303-4e7f-8a6e-d468b11f002e)
 
 
-So to exploit, I will use the given email to the `email` field, and using the {"$ne":"invalid"} in the `password` field. This payload means that it will return all values that does not match to the value `invalid` of NoSQL Operator `$ne`.
+So to exploit, I will use the given email to the `email` field, and using the {"$ne":"invalid"} in the `password` field. This payload means that it will return all values that does not match to the value `invalid` by using the NoSQL Operator `$ne`.
 
 ![success](https://github.com/user-attachments/assets/8e0d1630-919f-445f-b7a7-8716c2f72d71)
 
