@@ -11,7 +11,7 @@ Using normal login, I see that my HTTP POST is in JSON type, and the server retu
 ![normal_login](https://github.com/user-attachments/assets/841d1228-9fcf-49c6-aa6e-24b1fbfe07a3)
 
 
-Reading the source code, I understand that the server is using **MongoDB**, also there's a leaked email and it seems the flag is the `token` value and return if we successfully login to the server. We will use NoSQL technique to exploit.
+Reading the source code, I understand that the server is using **MongoDB**, also there's a leaked email and it seems the flag is the `token` value and return if we successfully login to the server. We will use NoSQL injection technique to exploit.
 
 ![leak_mail](https://github.com/user-attachments/assets/5365d727-7303-4e7f-8a6e-d468b11f002e)
 
